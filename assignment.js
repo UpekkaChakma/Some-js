@@ -20,8 +20,6 @@ function budgetCalculator(numOfWatch, numOfMobile, numOfLaptop){
         return totalBudgetNeeded;
     }    
 }
-var s= budgetCalculator(21.500000001, 6, 6);
-console.log(s);
 
 function hotelCost(yourDaysInHotel) {
     var totalCost = 0;
