@@ -45,7 +45,7 @@ function hotelCost(yourDaysInHotel) {
 
 function megaFriend(array) {
     var longest = array[0];
-    if (array.length == 0)
+    if (array.length == 0 || array == "")
         return "Please input your friends name,thank you"
     for (var i = 1; i < array.length; i++) {
         if (array[i].length > longest.length) {
