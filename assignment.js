@@ -10,7 +10,7 @@ function kilometerToMeter(number){
 
 function budgetCalculator(numOfWatch, numOfMobile, numOfLaptop){
     while((numOfWatch < 0) || (numOfMobile < 0) || (numOfLaptop < 0)){
-        return "ERROR 404! Please be smart, don't input negative integer or characters";
+        return "ERROR 404! Quantity of products cannot be negative values.Please be smart, don't input negative integer or characters";
     }
     while((numOfWatch >= 0) && (numOfMobile >= 0) && (numOfLaptop >= 0)){
         var a = Math.round(numOfWatch);
